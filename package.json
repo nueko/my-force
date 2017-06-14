@@ -1,0 +1,28 @@
+{
+  "name": "mysql-force",
+  "version": "1.0.0",
+  "description": "MySQL password bruteforce",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "mybrute": "index.js"
+  },
+  "keywords": [
+    "mysql",
+    "password",
+    "decrypt",
+    "bruteforce"
+  ],
+  "author": "Eko Eryanto <ekoeryanto@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "expand-range": "^2.0.1",
+    "node-bruteforce": "^1.1.0",
+    "sha1": "^1.1.1"
+  }
+}
