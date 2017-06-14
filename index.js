@@ -12,7 +12,7 @@ ranges = ranges.map(function(range) {
 })
 
 // flatten
-ranges = [].concat.apply([], [expand('a..z'), expand('A..Z'), expand('0..9')])
+ranges = [].concat.apply([], ranges || [expand('a..z'), expand('A..Z'), expand('0..9')])
 console.log('Using chars:', ranges.join(' '))
 hash = hash.toLocaleLowerCase().replace('*','')
 
