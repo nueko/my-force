@@ -18,7 +18,7 @@
   "author": "Eko Eryanto <ekoeryanto@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^3.5.3"
+    "mocha": "^5.2.0"
   },
   "dependencies": {
     "expand-range": "^2.0.1",
